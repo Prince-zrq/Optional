@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+	char c;
+	while(c!='#')
+	{c=getchar();
+	if(c=='#')break;
+	printf("%c %d\n",c,c);
+	}
+}
